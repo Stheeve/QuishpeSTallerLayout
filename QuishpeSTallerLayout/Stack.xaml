@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuishpeSTallerLayout.Stack"
+             Title="Stack">
+
+    <StackLayout Padding="20" Spacing="15">
+        
+        <Label Text="Stheeven"
+               FontSize="60"
+               FontFamily="Arial"
+               HorizontalOptions="Center" />
+
+       
+        <Label Text="Alexander"
+               FontSize="30"
+               FontFamily="Courier New"
+               HorizontalOptions="Center" />
+
+       
+        <Label Text="Quishpe"
+               FontSize="20"
+               FontFamily="Times New Roman"
+               HorizontalOptions="Center" />
+
+        <Button
+            x:Name="BotonIrFlex"
+            Text="Ir a Flex"
+            Clicked="BotonIrFlex_Clicked"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+    </StackLayout>
+
+</ContentPage>

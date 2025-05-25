@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuishpeSTallerLayout.Demo"
+             Title="Demo">
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        
+        <BoxView Grid.Row="0" Grid.Column="0" Color="LightBlue" />
+       
+
+        
+        <BoxView Grid.Row="0" Grid.Column="1" Color="LightGreen" />
+      
+
+        <BoxView Grid.Row="1" Grid.Column="0" Color="LightCoral" />
+       
+
+     
+        <BoxView Grid.Row="1" Grid.Column="1" Color="Khaki" />
+        <Button
+            x:Name="BotonIrAStack"
+            Grid.Row="1"
+            Grid.Column="1"
+            Text="Ir a Stack"
+            Clicked="BotonIrAStack_Clicked"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+
+
+    </Grid>
+
+</ContentPage>
